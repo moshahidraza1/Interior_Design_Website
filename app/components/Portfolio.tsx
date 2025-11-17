@@ -2,15 +2,17 @@ import Image from 'next/image'
 import React from 'react'
 
 const Portfolio = () => {
+    
     const cardItems= [
         {name:'Project 1', image:'/Project-1.jpg'},
         {name:'Project 2', image:'/Project-2.jpg'},
         {name:'Project 3', image:'/Project-3.webp'},
         {name:'Project 4', image:'/Hero-1.webp'}
-    ]
+    ];
+
   return (
     <div id='portfolio'>
-      <div className='mt-1 p-4 bg-cream text-black text-center text-bold text-3xl'>
+      <div className='py-10 bg-cream text-center text-bold text-3xl md:text-5xl text-dark/90 font-serif'>
         Our Work
       </div>
       <div className='mt-1 px-5'>
@@ -46,7 +48,6 @@ const Portfolio = () => {
             ))}
         </div>
       </div>
-      <div className='mt-15 bg-cream'></div>
     </div>
   )
 }
