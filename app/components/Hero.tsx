@@ -4,14 +4,14 @@ export default function Hero() {
   return (
     <section className='relative h-[80vh] w-full overflow-hidden'>
       <Image
-        src='/Hero-1.webp'
+        src='https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp'
         alt='Interior design showcase'
         fill
         className='object-cover'
         priority
       />
       <Image
-        src='/hero-slide-1.jpg'
+        src='https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056557/hero-slide-1_a88oc2.jpg'
         alt='Interior design showcase'
         fill
         className='object-cover md:hidden'
