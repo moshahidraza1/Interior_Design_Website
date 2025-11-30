@@ -6,11 +6,11 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const closeMenu = () =>setIsMenuOpen(false);
     const navLinks = [
-        {label: 'Home', href:'#'},
-        {label: 'Services', href:'#services'},
-        {label: 'Portfolio', href:'#portfolio'},
-        {label: 'About', href:'#about'},
-        {label: 'Contact', href:'#contact'}
+        {label: 'Home', href:'/'},
+        {label: 'Services', href:'/#services'},
+        {label: 'Portfolio', href:'/#portfolio'},
+        {label: 'About', href:'/about'},
+        {label: 'Contact', href:'/#contact'}
     ];
 
   return (

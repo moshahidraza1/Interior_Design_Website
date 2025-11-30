@@ -40,7 +40,7 @@ const highlights = [
   },
 ];
   return (
-    <div id='about' className='bg-cream py-20 px-5'>
+    <div className='bg-cream py-20 px-5'>
       <div className='text-center text-3xl md:text-5xl font-serif'>
         Trusted by Resorts & Luxury Villas
       </div>

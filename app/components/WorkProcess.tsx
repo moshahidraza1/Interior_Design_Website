@@ -43,7 +43,7 @@ const steps = [
   return (
     <div>
       <section className="bg-cream mt-20 py-20">
-        <div className="items-center text-5xl text-center font-serif">
+        <div className="items-center text-3xl md:text-5xl text-center font-serif">
             How We Work
         </div>
         <div className="w-50 h-0.5 mt-3 bg-gold flex mx-auto "></div>
