@@ -35,7 +35,7 @@ const ContactForm = () => {
   return (
     <div id='contact' className='mt-20 py-20'>
       <div className='text-3xl md:text-5xl font-serif text-center'>Get Quote</div>
-      <div className='bg-gold h-0.5 w-30 mx-auto'></div>
+      <div className='bg-gold h-0.5 w-30 mx-auto mt-1'></div>
       <form onSubmit={handleSubmit}  className='max-w-xl md:max-w-3xl mx-auto p-6 bg-white/50 rounded-2xl shadow-sm mt-16'>
         <h3 className='font-semibold text-2xl mt-3 mb-6 text-center'>Contact Us</h3>
         <div className='grid gap-5'>

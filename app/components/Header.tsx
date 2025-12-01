@@ -40,9 +40,9 @@ const Header = () => {
 
                 {/* CTA Button + Hamburger */}
                 <div className='flex items-center gap-6 relative z-50'>
-                    <button className='hidden md:block rounded-full flex-shrink-0 text-center bg-gold/50 px-4 py-2'>
+                    <Link href='/#contact' className='hidden md:block rounded-full flex-shrink-0 text-center bg-gold/50 px-4 py-2'>
                         Get Quote
-                    </button>
+                    </Link>
                     
                     {/* Hamburger Menu */}
                     <button
@@ -75,7 +75,8 @@ const Header = () => {
                                 {link.label}
                             </Link>
                         ))}
-                        <button className='bg-green rounded-full px-5 py-3 text-center'>Get Quote</button>
+                        <Link href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center' onClick={closeMenu}>Get Quote
+                        </Link>
                     </div>
                 </div>
                 </>

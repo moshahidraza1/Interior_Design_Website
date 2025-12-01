@@ -45,3 +45,2525 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:00:29.535] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:29.535] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:04:48.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:26:34.600] Browser ERROR   ./app/layout.tsx:26:5
+Parsing ecmascript source code failed
+  24 |       </body>
+  25 |       <
+> 26 |     </html>
+     |     ^
+  27 |   );
+  28 | }
+  29 |
+
+Expression expected
+[41:26:34.600] Browser ERROR   ./app/layout.tsx:26:6
+Parsing ecmascript source code failed
+  24 |       </body>
+  25 |       <
+> 26 |     </html>
+     |      ^^^^^^
+  27 |   );
+  28 | }
+  29 |
+
+Unterminated regexp literal
+[41:26:37.600] Browser ERROR   ./app/layout.tsx:26:5
+Parsing ecmascript source code failed
+  24 |       </body>
+  25 |       <Foo
+> 26 |     </html>
+     |     ^
+  27 |   );
+  28 | }
+  29 |
+
+Expression expected
+[41:26:37.600] Browser ERROR   ./app/layout.tsx:26:6
+Parsing ecmascript source code failed
+  24 |       </body>
+  25 |       <Foo
+> 26 |     </html>
+     |      ^^^^^^
+  27 |   );
+  28 | }
+  29 |
+
+Unterminated regexp literal
+[41:26:38.599] Browser ERROR   ./app/layout.tsx:27:5
+Parsing ecmascript source code failed
+  25 |       </body>
+  26 |       <Footer
+> 27 |     </html>
+     |     ^
+  28 |   );
+  29 | }
+  30 |
+
+Expression expected
+[41:26:38.599] Browser ERROR   ./app/layout.tsx:27:6
+Parsing ecmascript source code failed
+  25 |       </body>
+  26 |       <Footer
+> 27 |     </html>
+     |      ^^^^^^
+  28 |   );
+  29 | }
+  30 |
+
+Unterminated regexp literal
+[41:26:39.763] Server  LOG      ✓ Compiled in 60ms
+[41:26:40.601] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <div> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"...", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+                          <Footer>
+>                           <div>
+                  ...
+
+[41:26:40.601] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. html <div>
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056557/hero-slide-1_a88oc2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056592/Project-1_vkgxqc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056561/Project-2_czqdmy.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056647/Project-3_qoojwz.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.281] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056552/painting-services_a9sn3e.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.630] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056590/woodwork-services_wqnbbu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.630] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056713/interior-services_ydajle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.630] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056495/flooring-services_pv3evg.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.630] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:28:54.630] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:30:23.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:30:24.209] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056557/hero-slide-1_a88oc2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:30:24.209] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:30:53.599] Browser ERROR   ./app/components/Footer.tsx:6:10
+Parsing ecmascript source code failed
+  4 |   return (
+  5 |     <div></div>
+> 6 |     <div className='items-center py-20 mb-0 mx-5'>
+    |          ^^^^^^^^^
+  7 |       <div>
+  8 |         Email
+  9 |       </div>
+
+Expected ',', got 'className'
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[41:34:25.479] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056495/flooring-services_pv3evg.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:34:25.479] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:34:25.479] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:34:25.673] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056552/painting-services_a9sn3e.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:34:25.673] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056713/interior-services_ydajle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:34:25.818] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056590/woodwork-services_wqnbbu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[41:56:39.601] Browser ERROR   ./app/components/Footer.tsx:7:9
+Parsing ecmascript source code failed
+   5 |     <div className='items-center py-20 mb-0 mx-5'>
+   6 |         <
+>  7 |         <div className='w-full bg-dark/30 h-0.5'></div>
+     |         ^
+   8 |       <div>
+   9 |         Email
+  10 |       </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[41:59:06.599] Browser ERROR   ./app/components/Footer.tsx:9:13
+Parsing ecmascript source code failed
+   7 |             <div>
+   8 |                 <Link
+>  9 |             </div>
+     |             ^
+  10 |         </div>
+  11 |         <div className='w-full bg-dark/30 h-0.5'></div>
+  12 |       <div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[41:59:06.599] Browser ERROR   ./app/components/Footer.tsx:9:14
+Parsing ecmascript source code failed
+   7 |             <div>
+   8 |                 <Link
+>  9 |             </div>
+     |              ^^^^^
+  10 |         </div>
+  11 |         <div className='w-full bg-dark/30 h-0.5'></div>
+  12 |       <div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[41:59:07.346] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:07.433] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:07.605] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:10.673] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:10.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:11.611] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:15.388] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:15.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:16.601] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:17.599] Browser ERROR   ./app/components/Footer.tsx:8:27
+Parsing ecmascript source code failed
+   6 |         <div>
+   7 |             <div>
+>  8 |                 <Link href=></Link>
+     |                           ^^
+   9 |             </div>
+  10 |         </div>
+  11 |         <div className='w-full bg-dark/30 h-0.5'></div>
+
+Expected '</', got '=>'
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[41:59:18.275] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:18.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:19.229] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:19.328] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:19.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:20.602] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:31.283] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:31.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:32.604] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:36.048] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[41:59:36.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:59:36.601] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[41:59:59.521] Server  LOG      ✓ Compiled in 127ms
+[41:59:59.785] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056557/hero-slide-1_a88oc2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056592/Project-1_vkgxqc.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056561/Project-2_czqdmy.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056647/Project-3_qoojwz.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056713/interior-services_ydajle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056590/woodwork-services_wqnbbu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056552/painting-services_a9sn3e.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056495/flooring-services_pv3evg.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:00.602] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:00:15.600] Browser ERROR   ./app/components/Footer.tsx:12:9
+Parsing ecmascript source code failed
+  10 |             </div>
+  11 |             <
+> 12 |         </div>
+     |         ^
+  13 |         <div className='w-full bg-dark/30 h-0.5'></div>
+  14 |       <div>
+  15 |         Email
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:00:15.600] Browser ERROR   ./app/components/Footer.tsx:12:10
+Parsing ecmascript source code failed
+  10 |             </div>
+  11 |             <
+> 12 |         </div>
+     |          ^^^^^
+  13 |         <div className='w-full bg-dark/30 h-0.5'></div>
+  14 |       <div>
+  15 |         Email
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:00:42.530] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[42:08:39.399] Browser ERROR   ./app/components/Footer.tsx:17:5
+Parsing ecmascript source code failed
+  15 |         
+  16 |         <
+> 17 |     </div>
+     |     ^
+  18 |   )
+  19 | }
+  20 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:08:39.399] Browser ERROR   ./app/components/Footer.tsx:17:6
+Parsing ecmascript source code failed
+  15 |         
+  16 |         <
+> 17 |     </div>
+     |      ^^^^^
+  18 |   )
+  19 | }
+  20 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:15.037] Browser ERROR   ./app/components/Footer.tsx:16:10
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |          ^
+  17 |   )
+  18 | }
+  19 |
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:15.037] Browser ERROR   ./app/components/Footer.tsx:16:11
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |           ^^^^^
+  17 |   )
+  18 | }
+  19 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:21.329] Browser ERROR   ./app/components/Footer.tsx:16:10
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |          ^
+  17 |     <div></div>
+  18 |   )
+  19 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:21.329] Browser ERROR   ./app/components/Footer.tsx:16:11
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |           ^^^^^
+  17 |     <div></div>
+  18 |   )
+  19 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:24.033] Browser ERROR   ./app/components/Footer.tsx:16:10
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |          ^
+  17 |     </div>
+  18 |   )
+  19 | }
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:09:24.033] Browser ERROR   ./app/components/Footer.tsx:16:11
+Parsing ecmascript source code failed
+  14 |         <div className='mt-5'>Aleo, Manali, Himachal Pradesh.</div>
+  15 |     </div>
+> 16 |     <div></div>
+     |           ^^^^^
+  17 |     </div>
+  18 |   )
+  19 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:20.600] Browser ERROR   ./app/components/Footer.tsx:19:7
+Parsing ecmascript source code failed
+  17 |         Follow us on:
+  18 |         <
+> 19 |       </div>
+     |       ^
+  20 |     </div>
+  21 |     <div className='text-center'>
+  22 |         <div className='w-full bg-dark/30 h-0.5'></div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:20.600] Browser ERROR   ./app/components/Footer.tsx:19:8
+Parsing ecmascript source code failed
+  17 |         Follow us on:
+  18 |         <
+> 19 |       </div>
+     |        ^^^^^
+  20 |     </div>
+  21 |     <div className='text-center'>
+  22 |         <div className='w-full bg-dark/30 h-0.5'></div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:22.600] Browser ERROR   ./app/components/Footer.tsx:19:7
+Parsing ecmascript source code failed
+  17 |         Follow us on:
+  18 |         <ul
+> 19 |       </div>
+     |       ^
+  20 |     </div>
+  21 |     <div className='text-center'>
+  22 |         <div className='w-full bg-dark/30 h-0.5'></div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:22.600] Browser ERROR   ./app/components/Footer.tsx:19:8
+Parsing ecmascript source code failed
+  17 |         Follow us on:
+  18 |         <ul
+> 19 |       </div>
+     |        ^^^^^
+  20 |     </div>
+  21 |     <div className='text-center'>
+  22 |         <div className='w-full bg-dark/30 h-0.5'></div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:27.600] Browser ERROR   ./app/components/Footer.tsx:20:9
+Parsing ecmascript source code failed
+  18 |         <ul>
+  19 |             <li
+> 20 |         </ul>
+     |         ^
+  21 |       </div>
+  22 |     </div>
+  23 |     <div className='text-center'>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:27.600] Browser ERROR   ./app/components/Footer.tsx:20:10
+Parsing ecmascript source code failed
+  18 |         <ul>
+  19 |             <li
+> 20 |         </ul>
+     |          ^^^^
+  21 |       </div>
+  22 |     </div>
+  23 |     <div className='text-center'>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:39.601] Browser ERROR   ./app/components/Footer.tsx:21:13
+Parsing ecmascript source code failed
+  19 |             <li>
+  20 |                 <Insta
+> 21 |             </li>
+     |             ^
+  22 |         </ul>
+  23 |       </div>
+  24 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:39.601] Browser ERROR   ./app/components/Footer.tsx:21:14
+Parsing ecmascript source code failed
+  19 |             <li>
+  20 |                 <Insta
+> 21 |             </li>
+     |              ^^^^
+  22 |         </ul>
+  23 |       </div>
+  24 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:44.601] Browser ERROR   ./app/components/Footer.tsx:22:13
+Parsing ecmascript source code failed
+  20 |             <li>
+  21 |                 <Instagram
+> 22 |             </li>
+     |             ^
+  23 |         </ul>
+  24 |       </div>
+  25 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:12:44.601] Browser ERROR   ./app/components/Footer.tsx:22:14
+Parsing ecmascript source code failed
+  20 |             <li>
+  21 |                 <Instagram
+> 22 |             </li>
+     |              ^^^^
+  23 |         </ul>
+  24 |       </div>
+  25 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:03.507] Server  LOG      ✓ Compiled in 132ms
+[42:13:11.380] Browser ERROR   ./app/components/Footer.tsx:24:9
+Parsing ecmascript source code failed
+  22 |             </li>
+  23 |             <li
+> 24 |         </ul>
+     |         ^
+  25 |       </div>
+  26 |     </div>
+  27 |     <div className='text-center'>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:11.380] Browser ERROR   ./app/components/Footer.tsx:24:10
+Parsing ecmascript source code failed
+  22 |             </li>
+  23 |             <li
+> 24 |         </ul>
+     |          ^^^^
+  25 |       </div>
+  26 |     </div>
+  27 |     <div className='text-center'>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:16.806] Browser ERROR   ./app/components/Footer.tsx:25:13
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <
+> 25 |             </li>
+     |             ^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:16.806] Browser ERROR   ./app/components/Footer.tsx:25:14
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <
+> 25 |             </li>
+     |              ^^^^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:30.064] Browser ERROR   ./app/components/Footer.tsx:25:13
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Face
+> 25 |             </li>
+     |             ^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:30.065] Browser ERROR   ./app/components/Footer.tsx:25:14
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Face
+> 25 |             </li>
+     |              ^^^^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:32.817] Browser ERROR   ./app/components/Footer.tsx:25:13
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Facebook
+> 25 |             </li>
+     |             ^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:32.817] Browser ERROR   ./app/components/Footer.tsx:25:14
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Facebook
+> 25 |             </li>
+     |              ^^^^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:33.911] Browser ERROR   ./app/components/Footer.tsx:25:13
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Facebook
+> 25 |             </li>
+     |             ^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:33.911] Browser ERROR   ./app/components/Footer.tsx:25:14
+Parsing ecmascript source code failed
+  23 |             <li>
+  24 |                 <Facebook
+> 25 |             </li>
+     |              ^^^^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:34.295] Server  LOG      ✓ Compiled in 107ms
+[42:13:37.667] Browser ERROR   ./app/components/Footer.tsx:24:39
+Parsing ecmascript source code failed
+  22 |             </li>
+  23 |             <li>
+> 24 |                 <Facebook/></Facebook>
+     |                                       ^
+> 25 |             </li>
+     | ^^^^^^^^^^^^^
+  26 |         </ul>
+  27 |       </div>
+  28 |     </div>
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:41.619] Server  LOG      ✓ Compiled in 41ms
+[42:13:52.564] Browser ERROR   ./app/components/Footer.tsx:26:18
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><</li>
+     |                  ^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:52.564] Browser ERROR   ./app/components/Footer.tsx:26:19
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><</li>
+     |                   ^^^^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:55.951] Browser ERROR   ./app/components/Footer.tsx:26:19
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><X</li>
+     |                   ^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:55.951] Browser ERROR   ./app/components/Footer.tsx:26:20
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><X</li>
+     |                    ^^^^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:58.027] Browser ERROR   ./app/components/Footer.tsx:26:19
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><X</li>
+     |                   ^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:13:58.027] Browser ERROR   ./app/components/Footer.tsx:26:20
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li><X</li>
+     |                    ^^^^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:14:10.141] Server  ERROR    ⨯ ReferenceError: T is not defined
+[42:14:10.177] Server  LOG      ✓ Compiled in 113ms
+[42:14:10.234] Server  ERROR    ⨯ ReferenceError: T is not defined
+[42:14:10.383] Browser ERROR   uncaughtError: ReferenceError: T is not defined
+[42:14:11.962] Server  ERROR    ⨯ ReferenceError: Twitt is not defined
+[42:14:12.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[42:14:12.306] Browser ERROR   uncaughtError: ReferenceError: Twitt is not defined
+[42:14:14.399] Server  LOG      ✓ Compiled in 72ms
+[42:14:14.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[42:14:15.071] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056713/interior-services_ydajle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:15.071] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056590/woodwork-services_wqnbbu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:15.071] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056552/painting-services_a9sn3e.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:15.071] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056495/flooring-services_pv3evg.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:16.402] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:16.402] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:24.239] Browser ERROR   ./app/components/Footer.tsx:26:20
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li></></li>
+     |                    ^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:14:24.239] Browser ERROR   ./app/components/Footer.tsx:26:21
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li></></li>
+     |                     ^^^^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:14:28.642] Server  LOG      ✓ Compiled in 48ms
+[42:14:42.317] Browser ERROR   ./app/components/Footer.tsx:26:20
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li></></li>
+     |                    ^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:14:42.317] Browser ERROR   ./app/components/Footer.tsx:26:21
+Parsing ecmascript source code failed
+  24 |                 <Facebook/>
+  25 |             </li>
+> 26 |             <li></></li>
+     |                     ^^^^
+  27 |         </ul>
+  28 |       </div>
+  29 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:14:43.767] Server  LOG      ✓ Compiled in 67ms
+[42:14:43.945] Server  ERROR    ⨯ ReferenceError: L is not defined
+[42:14:44.016] Server  ERROR    ⨯ ReferenceError: L is not defined
+[42:14:44.174] Browser ERROR   uncaughtError: ReferenceError: L is not defined
+[42:14:46.165] Server  ERROR    ⨯ ReferenceError: Linked is not defined
+[42:14:46.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[42:14:46.979] Browser ERROR   uncaughtError: ReferenceError: Linked is not defined
+[42:14:49.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[42:14:49.641] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[42:14:49.860] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056713/interior-services_ydajle.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:49.860] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056590/woodwork-services_wqnbbu.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:49.861] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056552/painting-services_a9sn3e.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:49.861] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056495/flooring-services_pv3evg.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:51.179] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056513/3d-viz-services_rpddaj.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:14:51.179] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056577/metal-work-services_ggdstz.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[42:22:01.765] Server  LOG      ✓ Compiled in 47ms
+[42:22:47.201] Browser ERROR   ./app/components/Footer.tsx:19:2
+Parsing ecmascript source code failed
+  17 |         <div>
+  18 |         Follow us on:
+> 19 | '>
+     |  ^
+  20 |             <li className='border rounded-full h-10 w-10 flex text-center'>
+  21 |                 <Instagram className='w-5 h-8 text-center m-auto'/>
+  22 |             </li>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:31:22.713] Browser ERROR   ./app/components/Footer.tsx:16:72
+Parsing ecmascript source code failed
+  14 |             <div className='text-green text-xs font-semibold tracking-wide uppercase'>Manali</div>
+  15 |         </div>
+> 16 |         <div className='mt-5'>Left Bank Of Beas River, Naggar Rd,< Aleo, Manali, Himachal Pradesh 175131</div>
+     |                                                                        ^
+  17 |         <div className='mt-5 mb-3 text-xl font-serif mx-1'>
+  18 |         Follow us on:
+  19 |         <ul className='flex gap-3 items-center mt-3'>
+
+Expected '</', got ','
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:31:25.720] Server  LOG      ✓ Compiled in 27ms
+[42:32:36.041] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:36.041] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:39.929] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <Email
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:39.929] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <Email
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:53.516] Browser ERROR   ./app/components/Footer.tsx:34:9
+Parsing ecmascript source code failed
+  32 |         <div>
+  33 |             <Email/
+> 34 |         Email
+     |         ^^^^^
+  35 |       </div>
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+
+Expected '</', got 'Email'
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:55.847] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:55.847] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:57.689] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <I
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:57.689] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <I
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:59.368] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <Icon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:32:59.368] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <Icon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:06.795] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <EmaIcon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:06.795] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <EmaIcon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:09.017] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <EmailIcon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:09.017] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <EmailIcon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:11.598] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <ElementInternalsIcon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:11.598] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <ElementInternalsIcon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:13.894] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <EmailIcon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:13.894] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <EmailIcon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:15.864] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |             <Icon
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:33:15.864] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |             <Icon
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:26.660] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |            < 
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:26.661] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |            < 
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:29.127] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |            <Mail 
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:29.127] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |            <Mail 
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:30.374] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |            <Mail 
+  34 |         Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:30.374] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |            <Mail 
+  34 |         Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:34:31.853] Server  LOG      ✓ Compiled in 112ms
+[42:36:30.594] Browser ERROR   ./app/components/Footer.tsx:35:7
+Parsing ecmascript source code failed
+  33 |            <Mail className='text-center'/> 
+  34 |         <Email
+> 35 |       </div>
+     |       ^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:36:30.594] Browser ERROR   ./app/components/Footer.tsx:35:8
+Parsing ecmascript source code failed
+  33 |            <Mail className='text-center'/> 
+  34 |         <Email
+> 35 |       </div>
+     |        ^^^^^
+  36 |       <div>Copyrights © 2025 LuxeDesign</div>
+  37 |     </div>
+  38 |     </div>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Footer.tsx
+    ./app/layout.tsx
+[42:36:51.258] Server  LOG      ✓ Compiled in 21ms
+[42:37:45.032] Server  LOG      ✓ Compiled in 18ms
+[42:39:20.943] Server  LOG      ✓ Compiled in 32ms
+[42:42:00.815] Server  LOG      ✓ Compiled in 45ms
+[42:42:11.526] Server  LOG      ✓ Compiled in 39ms
+[42:43:44.890] Server  LOG      ✓ Compiled in 42ms
+[42:43:46.453] Server  LOG      ✓ Compiled in 70ms
+[42:45:28.270] Server  LOG      ✓ Compiled in 64ms
+[42:45:31.639] Server  LOG      ✓ Compiled in 22ms
+[42:45:35.976] Server  LOG      ✓ Compiled in 23ms
+[42:46:16.292] Server  LOG      ✓ Compiled in 22ms
+[42:46:20.323] Server  LOG      ✓ Compiled in 19ms
+[42:47:12.861] Server  LOG      ✓ Compiled in 46ms
+[42:47:13.015] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. idclassName idclassname
+[42:47:14.067] Server  LOG      ✓ Compiled in 18ms
+[42:47:14.123] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true id id true id
+[42:47:19.349] Server  LOG      ✓ Compiled in 26ms
+[42:47:19.453] Browser ERROR   ./app/components/Header.tsx:78:48
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <button id='id='contact'' className='bg-green rounded-full px-5 py-3 text-center'>Get Quote</button>
+     |                                                ^^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expected '</', got 'string literal (, '')'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[42:47:21.646] Server  LOG      ✓ Compiled in 24ms
+[42:47:21.749] Browser ERROR   ./app/components/Header.tsx:78:48
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <button id='id='contact' className='bg-green rounded-full px-5 py-3 text-center'>Get Quote</button>
+     |                                                ^^^^^^^^^^^^^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expected '</', got 'string literal ( className=, ' className=')'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:10:34.485] Server  LOG      ✓ Compiled in 111ms
+[64:12:54.409] Server  LOG      ✓ Compiled in 46ms
+[64:12:56.365] Server  LOG      ✓ Compiled in 20ms
+[64:12:58.164] Server  LOG      ✓ Compiled in 18ms
+[64:13:35.737] Server  LOG      ✓ Compiled in 48ms
+[64:13:38.468] Server  LOG      ✓ Compiled in 22ms
+[64:13:59.929] Server  LOG      ✓ Compiled in 29ms
+[64:14:00.034] Browser ERROR   ./app/components/Header.tsx:78:26
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <<button href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</button>
+     |                          ^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:14:03.633] Server  LOG      ✓ Compiled in 49ms
+[64:14:13.239] Server  LOG      ✓ Compiled in 34ms
+[64:14:16.514] Server  LOG      ✓ Compiled in 19ms
+[64:14:21.399] Server  LOG      ✓ Compiled in 21ms
+[64:14:28.093] Server  LOG      ✓ Compiled in 21ms
+[64:20:00.611] Server  LOG      ✓ Compiled in 68ms
+[64:20:01.515] Browser ERROR   ./app/components/Header.tsx:78:118
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</button>
+     |                                                                                                                      ^
+> 79 |                     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^
+  80 |                 </div>
+  81 |                 </>
+  82 |             )}
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:12.348] Server  LOG      ✓ Compiled in 36ms
+[64:20:12.516] Browser ERROR   ./app/components/Header.tsx:78:26
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <<a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                          ^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:18.518] Browser ERROR   ./app/components/Header.tsx:78:30
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link<a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                              ^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:30.228] Server  LOG      ✓ Compiled in 49ms
+[64:20:30.516] Browser ERROR   ./app/components/Header.tsx:78:39
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link href={}></Link><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                                       ^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:32.876] Server  LOG      ✓ Compiled in 27ms
+[64:20:33.515] Browser ERROR   ./app/components/Header.tsx:78:37
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link href={/}></Link><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                                     ^^^^^^^^^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:33.515] Browser ERROR   ./app/components/Header.tsx:79:22
+Parsing ecmascript source code failed
+  77 |                         ))}
+  78 |                         <Link href={/}></Link><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+> 79 |                     </div>
+     |                      ^^^^^
+  80 |                 </div>
+  81 |                 </>
+  82 |             )}
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:34.256] Server  LOG      ✓ Compiled in 24ms
+[64:20:34.514] Browser ERROR   ./app/components/Header.tsx:78:39
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link href={}></Link><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                                       ^
+  79 |                     </div>
+  80 |                 </div>
+  81 |                 </>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:37.613] Server  LOG      ✓ Compiled in 21ms
+[64:20:40.132] Server  LOG      ✓ Compiled in 20ms
+[64:20:43.862] Server  LOG      ✓ Compiled in 25ms
+[64:20:48.883] Server  LOG      ✓ Compiled in 43ms
+[64:20:49.516] Browser ERROR   ./app/components/Header.tsx:79:27
+Parsing ecmascript source code failed
+  77 |                         ))}
+  78 |                         <Link href={'/#contact'}><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+> 79 |                     </div>
+     |                           ^
+> 80 |                 </div>
+     | ^^^^^^^^^^^^^^^^^
+  81 |                 </>
+  82 |             )}
+  83 |         </nav>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:54.516] Browser ERROR   ./app/components/Header.tsx:80:27
+Parsing ecmascript source code failed
+  78 |                         <Link href={'/#contact'}><a href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+  79 |                         
+> 80 |                     </div>
+     |                           ^
+> 81 |                 </div>
+     | ^^^^^^^^^^^^^^^^^
+  82 |                 </>
+  83 |             )}
+  84 |         </nav>
+
+Expected '</', got 'jsx text (
+                )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:20:59.007] Server  LOG      ✓ Compiled in 21ms
+[64:21:24.034] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[64:21:45.910] Server  LOG      ✓ Compiled in 66ms
+[64:21:46.012] Browser ERROR   ./app/components/Header.tsx:79:26
+Parsing ecmascript source code failed
+  77 |                         ))}
+  78 |                         <Link href={'/#contact'><a className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+> 79 |                         </Link>
+     |                          ^^^^^^
+  80 |                     </div>
+  81 |                 </div>
+  82 |                 </>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:21:48.022] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[64:21:48.051] Server  LOG      ✓ Compiled in 25ms
+[64:21:49.668] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:21:51.074] Browser ERROR   uncaughtError: Error: Invalid <Link> with <a> child. Please remove <a> or use <Link legacyBehavior>.
+Learn more: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
+[64:23:09.848] Server  LOG      ✓ Compiled in 58ms
+[64:23:10.516] Browser ERROR   ./app/components/Header.tsx:78:116
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center'>Get Quote</a>
+     |                                                                                                                    ^
+> 79 |                         </Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  80 |                     </div>
+  81 |                 </div>
+  82 |                 </>
+
+Expected '</', got 'jsx text (
+                        )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:23:16.274] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[64:23:18.531] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                          <body
+                            className="bg-cream"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[64:23:19.875] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[64:24:14.800] Server  LOG      ✓ Compiled in 24ms
+[64:24:14.877] Browser ERROR   Unknown event handler property `%s`. It will be ignored. onC
+[64:24:16.854] Server  LOG      ✓ Compiled in 29ms
+[64:24:16.960] Browser ERROR   ./app/components/Header.tsx:78:113
+Parsing ecmascript source code failed
+  76 |                             </Link>
+  77 |                         ))}
+> 78 |                         <Link href='/#contact' className='bg-gold rounded-full px-5 py-3 text-center' onClick={}>Get Quote
+     |                                                                                                                 ^
+  79 |                         </Link>
+  80 |                     </div>
+  81 |                 </div>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:24:22.518] Browser ERROR   uncaughtError: ReferenceError: clo is not defined
+[64:24:23.051] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[64:24:23.170] Server  LOG      ✓ Compiled in 20ms
+[64:24:24.413] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:26:57.841] Server  LOG      ✓ Compiled in 44ms
+[64:27:24.156] Server  LOG      ✓ Compiled in 33ms
+[64:32:13.463] Server  LOG      ✓ Compiled in 51ms
+[64:32:14.515] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:15.515] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:19.516] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:22.516] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:24.517] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:35.516] Browser ERROR   ./app/components/Header.tsx:57:23
+Parsing ecmascript source code failed
+  55 |                         <span className={`w-6 h-0.5 bg-dark transition-all duration-300 ${isMenuOpen?'-rotate-45 -translate-y-2':''}`}/>
+  56 |                     </button>
+> 57 |                 </div>
+     |                       ^
+> 58 |             </div>
+     | ^^^^^^^^^^^^^
+  59 |
+  60 |             {/* Mobile Navigation */}
+  61 |             {isMenuOpen && (
+
+Expected '</', got 'jsx text (
+            )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:43.048] Server  LOG      ✓ Compiled in 30ms
+[64:32:47.193] Server  LOG      ✓ Compiled in 37ms
+[64:32:47.516] Browser ERROR   ./app/components/Header.tsx:45:30
+Parsing ecmascript source code failed
+  43 |                     <Link className='hidden md:block rounded-full flex-shrink-0 text-center bg-gold/50 px-4 py-2'>
+  44 |                         Get Quote
+> 45 |                     </button>
+     |                              ^
+> 46 |                     
+     | ^^^^^^^^^^^^^^^^^^^^
+> 47 |                     {/* Hamburger Menu */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  48 |                     <button
+  49 |                         onClick={()=>setIsMenuOpen(!isMenuOpen)} 
+  50 |                         className='md:hidden flex flex-col gap-1.5 focus:outline-none'
+
+Expected '</', got 'jsx text (
+                    
+                    )'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:50.514] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[64:32:53.484] Server  LOG      ✓ Compiled in 24ms
+[64:32:54.516] Browser ERROR   ./app/components/Header.tsx:43:35
+Parsing ecmascript source code failed
+  41 |                 {/* CTA Button + Hamburger */}
+  42 |                 <div className='flex items-center gap-6 relative z-50'>
+> 43 |                     <Link href={} className='hidden md:block rounded-full flex-shrink-0 text-center bg-gold/50 px-4 py-2'>
+     |                                   ^^^^^^^^^
+  44 |                         Get Quote
+  45 |                     </Link>
+  46 |                     
+
+Expected '</', got 'className'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:54.979] Server  LOG      ✓ Compiled in 28ms
+[64:32:55.516] Browser ERROR   ./app/components/Header.tsx:43:32
+Parsing ecmascript source code failed
+  41 |                 {/* CTA Button + Hamburger */}
+  42 |                 <div className='flex items-center gap-6 relative z-50'>
+> 43 |                     <Link href=} className='hidden md:block rounded-full flex-shrink-0 text-center bg-gold/50 px-4 py-2'>
+     |                                ^
+  44 |                         Get Quote
+  45 |                     </Link>
+  46 |                     
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./app/components/Header.tsx
+    ./app/layout.tsx
+[64:32:57.392] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[64:32:57.393] Server  LOG      ✓ Compiled in 24ms
+[64:32:58.520] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:32:59.813] Server  LOG      ✓ Compiled in 34ms
+[64:33:04.106] Server  LOG      ✓ Compiled in 17ms
+[64:33:15.058] Browser WARN    Image with src "https://res.cloudinary.com/ddvhuxa9f/image/upload/v1764056585/Hero-1_r48rzy.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[64:40:12.516] Browser ERROR   ./app/components/Portfolio.tsx:42:17
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<Details →
+> 42 |                 </button>
+     |                 ^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:12.516] Browser ERROR   ./app/components/Portfolio.tsx:41:34
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<Details →
+     |                                  ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected character '→'
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:12.516] Browser ERROR   ./app/components/Portfolio.tsx:42:18
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<Details →
+> 42 |                 </button>
+     |                  ^^^^^^^^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:15.516] Browser ERROR   ./app/components/Portfolio.tsx:41:29
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<br/Details →
+     |                             ^^^^^^^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Expected '</', got 'Details'
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:50.520] Browser ERROR   ./app/components/Portfolio.tsx:42:17
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<br/>Details<→
+> 42 |                 </button>
+     |                 ^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:50.520] Browser ERROR   ./app/components/Portfolio.tsx:41:38
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<br/>Details<→
+     |                                      ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected character '→'
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:40:50.520] Browser ERROR   ./app/components/Portfolio.tsx:42:18
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<br/>Details<→
+> 42 |                 </button>
+     |                  ^^^^^^^^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:15.516] Browser ERROR   ./app/components/Portfolio.tsx:42:17
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<></>br/>Details<br/→
+> 42 |                 </button>
+     |                 ^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:15.517] Browser ERROR   ./app/components/Portfolio.tsx:41:45
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<></>br/>Details<br/→
+     |                                             ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected character '→'
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:15.517] Browser ERROR   ./app/components/Portfolio.tsx:41:33
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<></>br/>Details<br/→
+     |                                 ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:15.517] Browser ERROR   ./app/components/Portfolio.tsx:42:18
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<></>br/>Details<br/→
+> 42 |                 </button>
+     |                  ^^^^^^^^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:18.515] Browser ERROR   ./app/components/Portfolio.tsx:42:17
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<>br/>Details<br/→
+> 42 |                 </button>
+     |                 ^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:18.515] Browser ERROR   ./app/components/Portfolio.tsx:41:42
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<>br/>Details<br/→
+     |                                          ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected character '→'
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:18.515] Browser ERROR   ./app/components/Portfolio.tsx:41:30
+Parsing ecmascript source code failed
+  39 |                         </div>
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+> 41 |                     View<>br/>Details<br/→
+     |                              ^
+  42 |                 </button>
+  43 |                         </div>
+  44 |                     </div>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:41:18.515] Browser ERROR   ./app/components/Portfolio.tsx:42:18
+Parsing ecmascript source code failed
+  40 |                         <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
+  41 |                     View<>br/>Details<br/→
+> 42 |                 </button>
+     |                  ^^^^^^^^
+  43 |                         </div>
+  44 |                     </div>
+  45 |                     
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/components/Portfolio.tsx
+    ./app/page.tsx
+[64:42:04.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:42:05.372] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:42:41.154] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:42:41.851] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:44:41.030] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:44:41.611] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:46:13.020] Server  LOG      ✓ Compiled in 29ms
+[64:46:51.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:46:51.790] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:50:10.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:50:10.832] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:50:56.319] Server  LOG      ✓ Compiled in 40ms
+[64:52:31.028] Server  LOG      ✓ Compiled in 44ms
+[64:55:22.787] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[64:55:23.495] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         upword-verified="true"
+                        >
+                  ...
+
+[64:55:42.829] Server  LOG      ✓ Compiled in 34ms

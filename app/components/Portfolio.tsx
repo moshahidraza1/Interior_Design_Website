@@ -30,15 +30,15 @@ const Portfolio = () => {
                     className='object-cover'
                     />
                     <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent'>
-                        <div className='absolute bottom-2 left-4 right-4 text-cream flex items-end justify-between gap-4'>
+                        <div className='absolute bottom-0 w-full p-4  text-cream flex justify-between items-end'>
                            <div> 
                             <h3 className='font-semibold text-lg'>{item.name}</h3>
                             <p className='mt-1 text-sm text-cream/80'>
                             Short description or highlight.
                             </p>
                         </div>
-                        <button className='mt-3 text-gold font-medium hover:scale-[1.25] translation-all duration-400'>
-                    View Details →
+                        <button className=' text-gold font-medium text-sm  hover:scale-[1.25] transition-transform duration-300 whitespace-nowrap'>
+                    View →
                 </button>
                         </div>
                     </div>
