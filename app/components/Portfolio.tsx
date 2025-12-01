@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link';
+import { projects } from '../data/projects';
 
 const Portfolio = () => {
 
@@ -18,9 +20,9 @@ const Portfolio = () => {
       <div className='mx-auto mt-3 h-[2px] w-30 bg-gold'></div>
       <div className='mt-16 px-5'>
         <div className='flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 bg-cream'>
-            {cardItems.map((item,idx, image) => (
+            {projects.map((item,id) => (
             <div
-            key={idx}
+            key={id}
             className='min-w-[90%] md:min-w-[40%] bg-white rounded-xl shadow-lg snap-center shrink-0 h-auto hover:scale-[1.02] translation-all duration-300'
             >
                 
@@ -37,9 +39,9 @@ const Portfolio = () => {
                             Short description or highlight.
                             </p>
                         </div>
-                        <button className=' text-gold font-medium text-sm  hover:scale-[1.25] transition-transform duration-300 whitespace-nowrap'>
+                        <Link href={`/projects/${item.id}`} className=' text-gold font-medium text-sm  hover:scale-[1.25] transition-transform duration-300 whitespace-nowrap'>
                     View →
-                </button>
+                </Link>
                         </div>
                     </div>
                     

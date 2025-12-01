@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "75e6f51f66c0015225eba1f27e184a1a",
-    "previewModeSigningKey": "9aff71e0999456a7e98a86e350747310cef2dbb59deed9354535304779f5f739",
-    "previewModeEncryptionKey": "e75028ad7ee38385f8debc2259664e5859c22762bcb4eae6d27526155b5b3d23"
-  }
-}
+{"version":4,"routes":{"/projects/luxury-villa":{},"/projects/modern-apartment":{},"/projects/cozy-cottage":{},"/projects/urban-studio":{}},"dynamicRoutes":{"/projects/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[id]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b26ba745d1c0d8d6fe5090ca1cead442","previewModeSigningKey":"3f011371a785abf2390e2cb2aea19516b1f2c7e237aac8edec50d13f912c1741","previewModeEncryptionKey":"b788e4098e901c80d42594971941f023125d83234806343e79dc098aebe2adf0"}}
